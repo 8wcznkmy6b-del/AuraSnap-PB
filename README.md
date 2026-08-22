@@ -90,6 +90,16 @@ AuraSnap 是一款从零构建的、完全基于 macOS 原生架构（Swift / Ap
 
 AuraSnap 是一款纯粹、无广告、完全免费的原生 macOS 生产力工具。如果您觉得 AuraSnap 对您的日常工作与学习有所帮助，欢迎请作者喝杯咖啡 ☕，您的支持是项目持续迭代与优化的最大动力！
 
+<p align="center">
+  <a href="https://afdian.com/a/aurasnap" target="_blank">
+    <img src="https://img.shields.io/badge/爱发电-赞助支持-946ce6?style=for-the-badge&logo=kofi&logoColor=white" alt="爱发电" />
+  </a>
+</p>
+
+<p align="center">
+  ⚡ 欢迎通过 <strong><a href="https://afdian.com/a/aurasnap" target="_blank">爱发电 (Afdian)</a></strong> 支持本项目：<a href="https://afdian.com/a/aurasnap" target="_blank">https://afdian.com/a/aurasnap</a>
+</p>
+
 <div align="center">
   <table>
     <tr>
