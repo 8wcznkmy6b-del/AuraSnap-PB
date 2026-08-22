@@ -2,6 +2,13 @@
   <img src="https://raw.githubusercontent.com/8wcznkmy6b-del/AuraSnap-PB/main/AuraSnap.png" width="128" alt="AuraSnap Icon" />
   <h1>AuraSnap</h1>
   <p>一款专为 Apple Silicon 打造的纯粹、优雅、原生 macOS 截图工作台，将截屏、标注、贴图、OCR 与背景美化发挥到极致。</p>
+  <p>
+    <a href="https://aurasnap.dpdns.org/"><img src="https://img.shields.io/badge/Official_Website-aurasnap.dpdns.org-0ea5e9?style=flat-square&logo=safari" alt="Website" /></a>
+    <a href="https://github.com/8wcznkmy6b-del/AuraSnap-PB/releases"><img src="https://img.shields.io/badge/Latest_Release-v2.9.0-10b981?style=flat-square&logo=apple" alt="Release" /></a>
+    <img src="https://img.shields.io/badge/macOS-13.0+-blue?style=flat-square" alt="macOS" />
+    <img src="https://img.shields.io/badge/Apple_Silicon-M1--M4_Native-purple?style=flat-square" alt="Apple Silicon" />
+  </p>
+  <p>🌐 <strong>官方网站 & 在线交互体验</strong>：<a href="https://aurasnap.dpdns.org/">https://aurasnap.dpdns.org/</a></p>
 </div>
 
 ---
@@ -52,7 +59,7 @@ AuraSnap 是一款从零构建的、完全基于 macOS 原生架构（Swift / Ap
 由于 AuraSnap 尚处于公开测试阶段，暂未上架 Mac App Store，您可以直接在 GitHub Releases 获取：
 
 1. 进入本项目仓库的 [**Releases**](https://github.com/8wcznkmy6b-del/AuraSnap-PB/releases) 页面。
-2. 下载最新版本的 `AuraSnap.app.zip` 压缩包。
+2. 下载最新版本 **`v2.9.0`** 的 `AuraSnap.app.zip` 压缩包。
 3. 双击解压，将解压出来的 `AuraSnap.app` 拖入系统的 **应用程序 (Applications)** 文件夹。
 4. 首次运行根据系统提示授予**屏幕录制 (Screen Recording)** 与**辅助功能 (Accessibility)** 权限即可。
 
@@ -68,13 +75,37 @@ AuraSnap 是一款从零构建的、完全基于 macOS 原生架构（Swift / Ap
 | **文字识别 (OCR) 直达** | `⌥ + 4` (Option + 4) | 框选松手直接弹出多语言 OCR 结果窗口 |
 | **长截图直达** | `⌥ + 5` (Option + 5) | 框选松手直接锁定选区并唤起长截图控制条 |
 | **动图录制 (GIF) 直达** | `⌥ + 6` (Option + 6) | 框选松手直接锁定选区并唤起录屏栏 |
+| **背景美化直达** | `⌥ + 7` (Option + 7) | 框选松手直接唤起 680pt 独立背景美化窗口 |
 | **剪贴板转贴图** | `⌘ + ⌥ + T` | 复制纯文本/代码或外部图片一键生成浮空贴图 |
 | **贴图穿透模式** | `⌥ + G` (Option + G) | 切换贴图鼠标点击穿透，长按 `⌥` 临时唤醒 |
 | **标注单键直达** | `R` / `A` / `M` / `P` / `L` / `T` / `N` / `B` / `W` / `V` | 矩形/箭头/马赛克/画笔/直线/文本/序号/引线/水印/选择 |
+| **内容擦除 / 贴纸 / 美化** | `D` (内容擦除) / `K` (贴纸) / `F` (背景美化) | 选区中单键直达新特性 |
 | **选区转长截图 / 录屏 / 抠图** | `S` (长截图) / `G` (录屏) / `E` (抠图) | 选区中单键直达进阶功能 |
-| **背景美化** | `F` | 选区中一键呼出独立背景美化窗口 |
 
 > 所有快捷键均可在菜单栏「偏好设置」➔「快捷键」面板中通过智能录制器进行自定义修改。
+
+---
+
+## ☕ 赞助与支持 (Sponsor & Donate)
+
+AuraSnap 是一款纯粹、无广告、完全免费的原生 macOS 生产力工具。如果您觉得 AuraSnap 对您的日常工作与学习有所帮助，欢迎请作者喝杯咖啡 ☕，您的支持是项目持续迭代与优化的最大动力！
+
+<div align="center">
+  <table>
+    <tr>
+      <th align="center"><b>微信支付 (WeChat Pay)</b></th>
+      <th align="center"><b>支付宝 (Alipay)</b></th>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://raw.githubusercontent.com/8wcznkmy6b-del/AuraSnap-PB/main/wechat_pay.png" width="220" alt="WeChat Pay" />
+      </td>
+      <td align="center">
+        <img src="https://raw.githubusercontent.com/8wcznkmy6b-del/AuraSnap-PB/main/alipay.jpg" width="220" alt="Alipay" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
@@ -85,6 +116,7 @@ AuraSnap 是一款 **100% 本地离线运行** 的原生应用，核心功能不
 ---
 
 <div align="center">
-  <sub>AuraSnap - Snap your aura. 专为 Apple Silicon 深度优化。</sub>
+  <sub>AuraSnap - Snap your aura. 专为 Apple Silicon 深度优化。</sub><br>
+  <sub>🌐 官网：<a href="https://aurasnap.dpdns.org/">https://aurasnap.dpdns.org/</a></sub>
 </div>
 
