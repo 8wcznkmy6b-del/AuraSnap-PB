@@ -1,11 +1,11 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/8wcznkmy6b-del/AuraSnap-PB/main/AuraSnap.png" width="128" alt="AuraSnap Icon" />
   <h1>AuraSnap</h1>
-  <p>一款专为 Apple Silicon 打造的纯粹、优雅、原生 macOS 截图工作台，将截屏、标注、贴图、OCR 与背景美化发挥到极致。</p>
+  <p>一款专为 Apple Silicon 打造的纯粹、优雅、原生 macOS 截图工作台，将截屏、原地无痕翻译、标注、贴图、OCR、长截图与背景美化发挥到极致。</p>
   <p>
     <a href="https://aurasnap.dpdns.org/"><img src="https://img.shields.io/badge/Official_Website-aurasnap.dpdns.org-0ea5e9?style=flat-square&logo=safari" alt="Website" /></a>
-    <a href="https://github.com/8wcznkmy6b-del/AuraSnap-PB/releases"><img src="https://img.shields.io/badge/Latest_Release-v2.9.0-10b981?style=flat-square&logo=apple" alt="Release" /></a>
-    <img src="https://img.shields.io/badge/macOS-13.0+-blue?style=flat-square" alt="macOS" />
+    <a href="https://github.com/8wcznkmy6b-del/AuraSnap-PB/releases"><img src="https://img.shields.io/badge/Latest_Release-v3.0.16-10b981?style=flat-square&logo=apple" alt="Release" /></a>
+    <img src="https://img.shields.io/badge/macOS-14.0+-blue?style=flat-square" alt="macOS" />
     <img src="https://img.shields.io/badge/Apple_Silicon-M1--M4_Native-purple?style=flat-square" alt="Apple Silicon" />
   </p>
   <p>🌐 <strong>官方网站 & 在线交互体验</strong>：<a href="https://aurasnap.dpdns.org/">https://aurasnap.dpdns.org/</a></p>
@@ -15,7 +15,13 @@
 
 ## ✨ 核心特性
 
-AuraSnap 是一款从零构建的、完全基于 macOS 原生架构（Swift / AppKit / ScreenCaptureKit / Vision / Accelerate）的高性能效率工具。以“无感、轻量、高颜”为核心理念，常驻内存仅 ~45MB，提供一站式的截屏、贴图、标注、文字识别与背景美化体验。
+AuraSnap 是一款从零构建的、完全基于 macOS 原生架构（Swift / AppKit / ScreenCaptureKit / Vision / Accelerate）的高性能效率工具。以“无感、轻量、高颜”为核心理念，常驻内存仅 ~45MB，提供一站式的截屏、原地翻译、贴图、标注、文字识别与背景美化体验。
+
+### 🌐 空间无痕原地截图翻译 (In-Place Spatial Translation)
+- **五域空间排版重构引擎**：截取外文网页、技术论文、报错弹窗或设计稿时，**直接在原图原地将外文替换为译文**，自动擦除原文底色，字体粗细、字号与色彩深度契合原图排版风格。
+- **物理原位锚定与 CoreText 装箱度量**：告别机翻文字冲出框外的糟糕体验，基于 OCR 物理包围盒与射线借宽技术，自动自适应计算最佳行距与字号收敛，列表、代码与多栏排版严丝合缝。
+- **双模翻译通道支持**：内置「快捷翻译」（开箱即用免配置），同时支持接入 Google、DeepL、微软 Azure、百度、腾讯、火山引擎等主流翻译服务。
+- **贴图与右键一键重译**：贴图状态下直接按 `⌥ + T`、右键菜单点击「翻译」或点击底部工具栏即刻完成画面汉化，支持「重新翻译」强制刷新。
 
 ### 🎨 独立背景美化与系统壁纸
 - **独立自适应美化窗口**：按下快捷键 `F` 或全局 `⌥7` 即可唤起独立美化工作台，支持 680pt 黄金宽度与图层隔离。
@@ -76,11 +82,12 @@ AuraSnap 是一款从零构建的、完全基于 macOS 原生架构（Swift / Ap
 | **长截图直达** | `⌥ + 5` (Option + 5) | 框选松手直接锁定选区并唤起长截图控制条 |
 | **动图录制 (GIF) 直达** | `⌥ + 6` (Option + 6) | 框选松手直接锁定选区并唤起录屏栏 |
 | **背景美化直达** | `⌥ + 7` (Option + 7) | 框选松手直接唤起 680pt 独立背景美化窗口 |
+| **原地截图翻译 / 贴图翻译** | `⌥ + T` (Option + T) | 选区或贴图一键原地无痕翻译为目标语言 |
 | **剪贴板转贴图** | `⌘ + ⌥ + T` | 复制纯文本/代码或外部图片一键生成浮空贴图 |
 | **贴图穿透模式** | `⌥ + G` (Option + G) | 切换贴图鼠标点击穿透，长按 `⌥` 临时唤醒 |
 | **标注单键直达** | `R` / `A` / `M` / `P` / `L` / `T` / `N` / `B` / `W` / `V` | 矩形/箭头/马赛克/画笔/直线/文本/序号/引线/水印/选择 |
 | **内容擦除 / 贴纸 / 美化** | `D` (内容擦除) / `K` (贴纸) / `F` (背景美化) | 选区中单键直达新特性 |
-| **选区转长截图 / 录屏 / 抠图** | `S` (长截图) / `G` (录屏) / `E` (抠图) | 选区中单键直达进阶功能 |
+| **选区转长截图 / 录屏 / 抠图 / 翻译** | `S` (长截图) / `G` (录屏) / `E` (抠图) / `T` (翻译) | 选区中单键直达进阶功能 |
 
 > 所有快捷键均可在菜单栏「偏好设置」➔「快捷键」面板中通过智能录制器进行自定义修改。
 
@@ -108,10 +115,10 @@ AuraSnap 是一款纯粹、无广告、完全免费的原生 macOS 生产力工�
     </tr>
     <tr>
       <td align="center">
-        <img src="https://raw.githubusercontent.com/8wcznkmy6b-del/AuraSnap-PB/main/wechat_pay.png" width="220" alt="WeChat Pay" />
+        <img src="https://raw.githubusercontent.com/8wcznkmy6b-del/AuraSnap-PB/main/assets/wechat_pay.png" width="220" alt="WeChat Pay" />
       </td>
       <td align="center">
-        <img src="https://raw.githubusercontent.com/8wcznkmy6b-del/AuraSnap-PB/main/alipay.jpg" width="220" alt="Alipay" />
+        <img src="https://raw.githubusercontent.com/8wcznkmy6b-del/AuraSnap-PB/main/assets/alipay.jpg" width="220" alt="Alipay" />
       </td>
     </tr>
   </table>
