@@ -26,10 +26,10 @@ AuraSnap 是一款纯 Swift 原生开发的 Mac 截图效率工具。没有 Elec
 
 ## ✨ 核心功能
 
-### 🌐 原地截图翻译
-* **原位替换与版式保留**：框选外文（网页、报错、PDF 或设计图），译文直接在原图的对应位置呈现，自动匹配字体颜色与大小，排版结构不打乱。
-* **双模式支持**：内置快捷翻译（开箱即用，无需配置），也支持绑定自己的 DeepL、Google、微软 Azure、百度、腾讯等翻译 API。
-* **贴图即时翻译**：悬浮在屏幕上的贴图，右键即可直接翻译或重新翻译。
+### 🌐 翻译
+* **原地排版渲染 (In-Place Rendering)**：框选外文区域，直接在原图对应位置擦除背景并重新绘制译文；自动提取并继承源图的基线高度、字重字阶与文本色彩，保留原始段落与列表版式，告别繁琐的复制粘贴。
+* **多服务商与快捷模式**：内置免配置的快捷翻译通道；同时支持接入 DeepL、Google Cloud Translation、Microsoft Azure、百度、腾讯、火山引擎等标准 API 服务。
+* **贴图即时对照**：置顶悬浮的贴图支持右键即时翻译、强制重新翻译与原文对照，满足多任务阅读需求。
 
 ### 📌 屏幕贴图与快捷交互
 * **置顶悬浮与平滑缩放**：一键将截图、纯文本或剪贴板图片固定在屏幕最上层，触控板或滚轮双指无级缩放。
@@ -90,27 +90,15 @@ AuraSnap 遵循本地优先原则：
 
 ---
 
-## ☕ 赞助与支持
+## 💎 授权与 Pro 会员 (License & Pro Edition)
 
-AuraSnap 由独立开发者维护。如果您觉得它提升了您的工作效率，欢迎通过以下方式支持后续开发：
+AuraSnap 采用 Freemium 模式，所有用户均可免费体验核心功能（包含每日免费 OCR、翻译与美化配额）。
 
-<div align="center">
-  <table>
-    <tr>
-      <th align="center"><b>微信支付 (WeChat Pay)</b></th>
-      <th align="center"><b>支付宝 (Alipay)</b></th>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://raw.githubusercontent.com/8wcznkmy6b-del/AuraSnap-PB/main/assets/wechat_pay.png" width="200" alt="WeChat Pay" />
-      </td>
-      <td align="center">
-        <img src="https://raw.githubusercontent.com/8wcznkmy6b-del/AuraSnap-PB/main/assets/alipay.jpg" width="200" alt="Alipay" />
-      </td>
-    </tr>
-  </table>
-  <p>⚡ 也可以通过 <a href="https://afdian.com/a/aurasnap" target="_blank">爱发电 (Afdian)</a> 进行赞助支持。</p>
-</div>
+升级 **Pro 会员** 解锁无限次极速原地翻译、长截图导出、高清录屏与高级美化模板：
+
+* 🛒 **官方授权店铺**：[Creem Store (https://www.creem.io/stores/aurasnap)](https://www.creem.io/stores/aurasnap)
+* 💳 **定价方案**：支持按年订阅（每月约 $0.83）与终生买断（$19.9 Lifetime）
+* 🔑 **激活方式**：购买后获取授权激活码，在 App 菜单栏「偏好设置」➔「关于」中输入即可一键激活。
 
 ---
 

@@ -26,10 +26,10 @@ Beyond routine captures, annotations, and pinned overlays, AuraSnap focuses on f
 
 ## ✨ Features
 
-### 🌐 In-Place Seamless Translation
-* **In-Situ Layout Preservation**: Select any foreign text (webpages, error dialogs, PDFs, or design mockups) and view translated text directly within the original image. Font size, colors, and layout are automatically preserved.
-* **Dual Translation Modes**: Built-in instant translation (ready out-of-the-box) or connect your own API keys for DeepL, Google Cloud, Microsoft Azure, Baidu, Tencent, and Volcengine.
-* **Instant Pin Translation**: Right-click on any floating pinned image or hit a hotkey to translate or re-translate immediately.
+### 🌐 Translation
+* **In-Place Visual Rendering**: Select foreign text regions to erase background and render translated text directly on the original image. Automatically inherits baseline height, font weight/scale, and text color, preserving original paragraphs and multi-column layouts without app switching.
+* **Multi-Provider & Quick Mode**: Includes a zero-configuration Quick Translation channel, alongside support for standard APIs including DeepL, Google Cloud Translation, Microsoft Azure, Baidu, Tencent, and Volcengine.
+* **Instant Pin Translation**: Right-click on any floating pinned image or hit a hotkey to translate or re-translate immediately with side-by-side comparison.
 
 ### 📌 Interactive Floating Pins & Drag-and-Drop
 * **Top-level Floating Overlays**: Pin screenshots, plain text, or clipboard images to stay on top. Zoom in/out smoothly using trackpad gestures or mouse scroll.
@@ -90,27 +90,15 @@ AuraSnap adheres to a strict local-first philosophy:
 
 ---
 
-## ☕ Support & Sponsor
+## 💎 License & Pro Edition
 
-AuraSnap is developed and maintained by an indie developer. If it boosts your daily productivity, consider supporting its ongoing development:
+AuraSnap follows a Freemium model, offering daily free quotas for core features (OCR, Translation, and Beautification).
 
-<div align="center">
-  <table>
-    <tr>
-      <th align="center"><b>WeChat Pay</b></th>
-      <th align="center"><b>Alipay</b></th>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="https://raw.githubusercontent.com/8wcznkmy6b-del/AuraSnap-PB/main/assets/wechat_pay.png" width="200" alt="WeChat Pay" />
-      </td>
-      <td align="center">
-        <img src="https://raw.githubusercontent.com/8wcznkmy6b-del/AuraSnap-PB/main/assets/alipay.jpg" width="200" alt="Alipay" />
-      </td>
-    </tr>
-  </table>
-  <p>⚡ You can also support via <a href="https://afdian.com/a/aurasnap" target="_blank">Afdian</a>.</p>
-</div>
+Upgrade to **Pro Edition** to unlock unlimited high-speed in-place translation, long screenshot exports, HD recording, and premium beautifier templates:
+
+* 🛒 **Official Store**: [Creem Store (https://www.creem.io/stores/aurasnap)](https://www.creem.io/stores/aurasnap)
+* 💳 **Pricing**: Available as Annual Subscription (~$0.83/mo) or Lifetime License ($19.9 Lifetime).
+* 🔑 **Activation**: Enter your license key in App **Preferences** ➔ **About** to activate instantly.
 
 ---
 
