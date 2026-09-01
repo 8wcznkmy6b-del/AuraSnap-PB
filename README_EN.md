@@ -47,9 +47,16 @@ Beyond routine captures, annotations, and pinned overlays, AuraSnap focuses on f
 * **Instant Social Media Cards**: Automatically extract dominant image colors into Morandi gradient backdrops, or use your current 5K system wallpaper as background.
 * **Photorealistic macOS Shadow & Insets**: Customize window shadows, corner radius, and padding for professional tutorials and presentations.
 
-### 🧹 Smart Eraser & Object Lifting
-* **Quick Cleanup**: Box or brush over private information or cluttered backgrounds to seamlessly fill and repair the area.
-* **Subject Extraction**: Separate foreground subjects with a single click; copy the subject directly or turn it into a transparent sticker.
+### 🪟 Radial Window Manager
+* **8-Direction Gesture Snapping**: Hold the middle wheel, mouse side button, or modifier key (`Fn`, `⌥`, `⌃⌥`) to summon a 160pt frosted glass radial menu. Fling in any of the 8 directions (half screens, 1/4 corners, maximize, center) to snap windows instantly.
+* **Smart Complementary Tiling**: Automatically adjusts adjacent windows when minimum width constraints are met, eliminating window overlapping on smaller screens.
+* **Stage Manager Padding & Window Gaps**: Smartly reserves sidebar room for Stage Manager thumbnails, with 0~24pt customizable gaps.
+
+### 🖱️ Mouse & Cursor Enhancement
+* **Trackpad-like Smooth Scrolling**: Converts stepped mechanical wheel ticks into buttery smooth inertial momentum scrolling.
+* **Independent Reverse Scrolling**: Flip mouse wheel direction without affecting your trackpad's natural scroll settings.
+* **Linear Pointer (Zero Acceleration)**: Removes macOS's non-linear mouse acceleration for 1:1 pixel-perfect tracking, ideal for Figma design and gaming.
+* **Hardware Button Remapper**: Record mouse side buttons (Button 4/5) and middle click to trigger screenshots, pins, OCR, or radial window management.
 
 ---
 
@@ -65,6 +72,11 @@ Beyond routine captures, annotations, and pinned overlays, AuraSnap focuses on f
 | **Record GIF / MP4** | `⌥ + 6` (Option + 6) | Record animated GIF or video clip of selected area |
 | **Background Beautifier** | `⌥ + 7` (Option + 7) | Open dedicated backdrop and frame editor |
 | **In-Place Translation** | `⌥ + T` (Option + T) | Translate selected region or floating pin in-place |
+| **Radial Window Manager** | Middle Click / Side Button / `Fn` / `⌥` Drag | Summon 8-direction radial wheel for instant window snapping |
+| **Left / Right Split** | `⌃ + ⌥ + ←` / `→` | Snap active window to left / right half (50%) |
+| **Top / Bottom Split** | `⌃ + ⌥ + ↑` / `↓` | Snap active window to top / bottom half (50%) |
+| **Maximize / Center** | `⌃ + ⌥ + ↩` / `C` | Maximize window / center on current screen |
+| **1/4 Screen Corners** | `⌃ + ⌥ + U` / `I` / `J` / `K` | Snap to Top-Left / Top-Right / Bottom-Left / Bottom-Right |
 | **Clipboard to Pin** | `⌘ + ⌥ + T` | Create a pinned window from clipboard text or image |
 | **Pin Click-Through** | `⌥ + G` (Option + G) | Toggle click-through mode; hold `⌥` to move |
 | **Quick Annotation** | `R` (Rect) / `A` (Arrow) / `M` (Mosaic) / `P` (Pen) / `L` (Line) / `T` (Text) / `N` (Numbered) / `B` (Callout) / `W` (Watermark) | Single-key shortcuts to begin annotation immediately |
@@ -76,7 +88,7 @@ Beyond routine captures, annotations, and pinned overlays, AuraSnap focuses on f
 ## 📥 Download & Installation
 
 1. Visit the GitHub [**Releases**](https://github.com/8wcznkmy6b-del/AuraSnap-PB/releases) page.
-2. Download the latest `AuraSnap.app.zip`.
+2. Download the latest `AuraSnap.app.zip` (`v3.1.0`).
 3. Unzip and drag `AuraSnap.app` into your **Applications** folder.
 4. On first launch, grant **Screen Recording** and **Accessibility** permissions as prompted.
 
