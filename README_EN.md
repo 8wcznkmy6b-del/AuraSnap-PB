@@ -5,7 +5,7 @@
   <p>Screenshots, In-Place Translation, Floating Pins, Scrolling Capture, OCR, Background Beautifier & Smart Erase.</p>
   <p>
     <a href="https://aurasnap.dpdns.org/"><img src="https://img.shields.io/badge/Official_Website-aurasnap.dpdns.org-0ea5e9?style=flat-square&logo=safari" alt="Website" /></a>
-    <a href="https://github.com/8wcznkmy6b-del/AuraSnap-PB/releases"><img src="https://img.shields.io/badge/Latest_Release-v3.0.16-10b981?style=flat-square&logo=apple" alt="Release" /></a>
+    <a href="https://github.com/8wcznkmy6b-del/AuraSnap-PB/releases"><img src="https://img.shields.io/badge/Latest_Release-v3.0.24-10b981?style=flat-square&logo=apple" alt="Release" /></a>
     <img src="https://img.shields.io/badge/macOS-14.0+-blue?style=flat-square" alt="macOS" />
     <img src="https://img.shields.io/badge/Architecture-Apple_Silicon_Native-purple?style=flat-square" alt="Apple Silicon" />
   </p>
@@ -88,7 +88,7 @@ Beyond routine captures, annotations, and pinned overlays, AuraSnap focuses on f
 ## 📥 Download & Installation
 
 1. Visit the GitHub [**Releases**](https://github.com/8wcznkmy6b-del/AuraSnap-PB/releases) page.
-2. Download the latest `AuraSnap.app.zip` (`v3.1.0`).
+2. Download the latest `AuraSnap.app.zip` (`v3.0.24`).
 3. Unzip and drag `AuraSnap.app` into your **Applications** folder.
 4. On first launch, grant **Screen Recording** and **Accessibility** permissions as prompted.
 

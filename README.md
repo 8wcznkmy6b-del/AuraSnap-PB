@@ -5,7 +5,7 @@
   <p>集截图、原地翻译、屏幕贴图、长截图、文字识别 (OCR)、内容擦除与背景美化于一体。</p>
   <p>
     <a href="https://aurasnap.dpdns.org/"><img src="https://img.shields.io/badge/官网-aurasnap.dpdns.org-0ea5e9?style=flat-square&logo=safari" alt="Website" /></a>
-    <a href="https://github.com/8wcznkmy6b-del/AuraSnap-PB/releases"><img src="https://img.shields.io/badge/最新版本-v3.0.16-10b981?style=flat-square&logo=apple" alt="Release" /></a>
+    <a href="https://github.com/8wcznkmy6b-del/AuraSnap-PB/releases"><img src="https://img.shields.io/badge/最新版本-v3.0.24-10b981?style=flat-square&logo=apple" alt="Release" /></a>
     <img src="https://img.shields.io/badge/macOS-14.0+-blue?style=flat-square" alt="macOS" />
     <img src="https://img.shields.io/badge/架构-Apple_Silicon_原生-purple?style=flat-square" alt="Apple Silicon" />
   </p>
@@ -88,7 +88,7 @@ AuraSnap 是一款纯 Swift 原生开发的 Mac 截图效率工具。没有 Elec
 ## 📥 下载与安装
 
 1. 前往 GitHub [**Releases**](https://github.com/8wcznkmy6b-del/AuraSnap-PB/releases) 页面；
-2. 下载最新版本 **`v3.1.0`** 的 `AuraSnap.app.zip`；
+2. 下载最新版本 **`v3.0.24`** 的 `AuraSnap.app.zip`；
 3. 解压后将 `AuraSnap.app` 拖入系统的 **应用程序 (Applications)** 文件夹；
 4. 首次打开时，根据系统提示授予 **屏幕录制 (Screen Recording)** 与 **辅助功能 (Accessibility)** 权限即可正常使用。
 
