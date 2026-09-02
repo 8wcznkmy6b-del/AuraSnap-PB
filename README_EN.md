@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/8wcznkmy6b-del/AuraSnap-PB/main/AuraSnap.png" width="120" alt="AuraSnap Icon" />
+  <img src="https://raw.githubusercontent.com/8wcznkmy6b-del/AuraSnap-PB/main/AuraSnap.png?v=2" width="120" alt="AuraSnap Icon" />
   <h1>AuraSnap</h1>
   <p>A native, ultra-lightweight screenshot toolkit for macOS & Apple Silicon.</p>
   <p>Screenshots, In-Place Translation, Floating Pins, Scrolling Capture, OCR, Background Beautifier & Smart Erase.</p>

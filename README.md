@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/8wcznkmy6b-del/AuraSnap-PB/main/AuraSnap.png" width="120" alt="AuraSnap Icon" />
+  <img src="https://raw.githubusercontent.com/8wcznkmy6b-del/AuraSnap-PB/main/AuraSnap.png?v=2" width="120" alt="AuraSnap Icon" />
   <h1>AuraSnap</h1>
   <p>专为 macOS 打造的原生截图工具箱</p>
   <p>集截图、原地翻译、屏幕贴图、长截图、文字识别 (OCR)、内容擦除与背景美化于一体。</p>
