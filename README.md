@@ -5,7 +5,7 @@
   <p>截图标注、原地翻译、长截图、录屏、剪贴板历史、窗口分屏、鼠标增强与访达右键，一个原生 App 全部搞定。</p>
   <p>
     <a href="https://aurasnapapp.com/"><img src="https://img.shields.io/badge/官网-aurasnapapp.com-0ea5e9?style=flat-square&logo=safari" alt="Website" /></a>
-    <a href="https://github.com/8wcznkmy6b-del/AuraSnap-PB/releases/latest"><img src="https://img.shields.io/github/v/release/8wcznkmy6b-del/AuraSnap-PB?style=flat-square&logo=apple&label=最新版本&color=10b981" alt="Release" /></a>
+    <a href="https://github.com/8wcznkmy6b-del/AuraSnap-PB/releases/latest"><img src="https://img.shields.io/github/v/release/8wcznkmy6b-del/AuraSnap-PB?style=flat-square&logo=apple&label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC&color=10b981" alt="Release" /></a>
     <img src="https://img.shields.io/badge/macOS-14.0+-blue?style=flat-square" alt="macOS" />
     <img src="https://img.shields.io/badge/架构-Apple_Silicon_原生-purple?style=flat-square" alt="Apple Silicon" />
   </p>
